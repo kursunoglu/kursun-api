@@ -4,6 +4,9 @@
   "description": "Kursun Technologies API",
   "type": "module",
   "main": "dist/index.js",
+  "engines": {
+    "node": ">=20.9.0"
+  },
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
